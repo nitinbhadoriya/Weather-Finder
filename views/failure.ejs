@@ -1,0 +1,13 @@
+<%- include("top") -%>
+<form action="/" method="post" class="form-signin">
+<h1 class="h3 mb-3 font-weight-normal">Please check the name of your entered place. </h1>
+<h1 class="h3 mb-3 font-weight-normal"> "<%= cityname %>" </h1>
+<h1 class="h3 mb-3 font-weight-normal">If it is correct than probably it is not on OpenWeatherMap's Data Base till now</h1>
+
+
+<button class="btn btn-danger btn-block" type="submit" name="button" value="reload">Try Again</button>
+<p class="mt-5 mb-3 text-muted">Developed by Nitin Bhadoriya</p>
+</form>
+
+
+<%- include("bottom") -%>
